@@ -1,0 +1,5 @@
+a=eval(input("请输入a的值:"))
+c=eval(input("请输入c的值:"))
+d=eval(input("请输入d的值:"))
+s=(3+a)**2/(2*c+4*d)
+print(str.format('(3+{:.1f})**2/(2*{:.1f}+4*{:.1f})={:.1f}',a,c,d,s))
